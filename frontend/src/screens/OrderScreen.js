@@ -10,7 +10,7 @@ import {
   getOrderDetails,
   payOrder,
   deliverOrder,
-} from "../actions/orderActions";
+} from "../Actions/orderActions";
 import {
   ORDER_PAY_RESET,
   ORDER_DELIVER_RESET,
