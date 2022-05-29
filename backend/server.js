@@ -4,11 +4,10 @@ import dotenv from 'dotenv'
 import morgan from 'morgan'
 import { notFound, errorHandler } from './MiddleWare/errorMiddleware.js'
 import connectDB from './Config/db.js'
-
-import productRoutes from './routes/productRoutes.js'
-import userRoutes from './routes/userRoutes.js'
-import orderRoutes from './routes/orderRoutes.js'
-import uploadRoutes from './routes/uploadRoutes.js'
+import productRoutes from './routess/productRoutes.js'
+import userRoutes from './routess/userRoutes.js'
+import orderRoutes from './routess/orderRoutes.js'
+import uploadRoutes from './routess/uploadRoutes.js'
 
 dotenv.config()
 
