@@ -2,7 +2,7 @@ import path from 'path'
 import express from 'express'
 import dotenv from 'dotenv'
 import morgan from 'morgan'
-import { notFound, errorHandler } from './Middleware/errorMiddleware.js'
+import { notFound, errorHandler } from './MiddleWare/errorMiddleware.js'
 import connectDB from './Config/db.js'
 
 import productRoutes from './routes/productRoutes.js'
