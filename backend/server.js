@@ -8,7 +8,7 @@ import productRoutes from './routess/productRoutes.js'
 import userRoutes from './routess/userRoutes.js'
 import orderRoutes from './routess/orderRoutes.js'
 import uploadRoutes from './routess/uploadRoutes.js'
-
+ 
 dotenv.config()
 
 connectDB()
