@@ -11,7 +11,6 @@ import {
   updateUser,
 } from '../controllers/userController.js'
 import { protect, admin } from '../MiddleWare/authMiddleware.js'
-
 router.route('/').post(registerUser).get(protect, admin, getUsers)
 router.post('/login', authUser)
 router
